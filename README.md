@@ -90,49 +90,55 @@ Open your terminal or command prompt and run the following command. Replace `YOU
 ```bash
 git clone https://github.com/YOUR_USERNAME/AlphaTrack-Global-Pro.git
 cd AlphaTrack-Global-Pro
-Step 3: Install All Dependencies
+```
+### **Step 3: Install All Dependencies***
 This single command will install all the necessary Python libraries for the project.
 code
-Bash
-pip install streamlit yfinance pandas prophet plotly requests pyngrok finnhub-python streamlit-autorefresh streamlit-searchbox google-generativeai
-Step 4: Set Up Your API Keys
+```Bash
+pip install streamlit yfinance pandas prophet plotly requests pyngrok finnhub-python streamlit-autorefresh streamlit-searchbox
+```
+##$ **Step 4: Set Up Your API Keys**
 This application requires API keys to be set as environment variables. Do not hardcode these in the script.
 On macOS or Linux:
-code
-Bash
+```Bash
 export GEMINI_API_KEY="Your_Gemini_API_Key_Here"
 export FINNHUB_API_KEY="Your_Finnhub_API_Key_Here"
+```
 On Windows (in Command Prompt):
 code
-Cmd
+```Cmd
 set GEMINI_API_KEY="Your_Gemini_API_Key_Here"
 set FINNHUB_API_KEY="Your_Finnhub_API_Key_Here"
-Step 5: Download Helper Files for Ticker Search
+```
+## **Step 5: Download Helper Files for Ticker Search**
 These files are required for the ticker autocomplete feature to work. Run these commands from your project directory.
 On macOS or Linux (using wget):
 code
-Bash
+```Bash
 wget https://raw.githubusercontent.com/dataprofessor/streamlit-stock-price/master/nasdaq_screener_168_companies.csv -O nasdaq_tickers.csv
 wget https://raw.githubusercontent.com/ashish-p-s/stock_market_data_for_india/main/bse_company_list.csv -O bse_tickers.csv
 wget https://raw.githubusercontent.com/ashish-p-s/stock_market_data_for_india/main/nse_company_list.csv -O nse_tickers.csv
+```
 On Windows (using curl):
 code
-Cmd
+```Cmd
 curl -o nasdaq_tickers.csv https://raw.githubusercontent.com/dataprofessor/streamlit-stock-price/master/nasdaq_screener_168_companies.csv
 curl -o bse_tickers.csv https://raw.githubusercontent.com/ashish-p-s/stock_market_data_for_india/main/bse_company_list.csv
 curl -o nse_tickers.csv https://raw.githubusercontent.com/ashish-p-s/stock_market_data_for_india/main/nse_company_list.csv
-Step 6: Run the Application
+```
+## **Step 6: Run the Application**
 You are now ready to launch the dashboard!
 code
-Bash
+```Bash
 streamlit run portfolio_dashboard.py
+```
+
 Your default web browser will automatically open with the application running.
 📄 License
 This project is licensed under the MIT License.
 <details>
 <summary>Click to view full license text</summary>
-code
-Code
+```
 MIT License
 
 Copyright (c) 2025 [TEAM RED - DRAGON]
