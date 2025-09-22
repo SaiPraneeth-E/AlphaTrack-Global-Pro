@@ -134,7 +134,8 @@ streamlit run portfolio_dashboard.py
 ```
 
 Your default web browser will automatically open with the application running.
-📄 License
+
+## **📄 License**
 This project is licensed under the MIT License.
 <details>
 <summary>Click to view full license text</summary>
