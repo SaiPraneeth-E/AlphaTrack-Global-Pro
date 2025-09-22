@@ -26,9 +26,7 @@ You can access a live, temporary version of this application here:
     *   Default **Candlestick** view for professional analysis.
     *   Dynamic time-range filters: **1D, 1M, 3M, 6M, 1Y, 5Y, and All Time**.
     *   Overlays for **20-day and 50-day Moving Averages**.
--   **🤖 AI-Powered Insights:**
-    *   **🔮 Prophet 30-Day Forecast:** Generate a predictive chart of potential future price movements.
-    *   **🧠 Gemini Strategic Advisory:** Get a high-quality **SWOT Analysis** (Strengths, Weaknesses, Opportunities, Threats) for any stock.
+      
 -   **🏢 Detailed Company Profiles:** View company logos, business summaries, and key financial ratios (P/E, PEG, etc.).
 -   **📜 Full Transaction History:** Automatically logs all `BUY` and `SELL` activities for your records.
 -   **🎨 Sleek, Modern UI:** A beautiful, custom dark theme with professional card layouts.
