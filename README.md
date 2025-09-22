@@ -138,7 +138,6 @@ Your default web browser will automatically open with the application running.
 This project is licensed under the MIT License.
 <details>
 <summary>Click to view full license text</summary>
-```
 MIT License
 
 Copyright (c) 2025 [TEAM RED - DRAGON]
@@ -161,4 +160,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </details>
-```
